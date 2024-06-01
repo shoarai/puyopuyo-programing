@@ -9,7 +9,8 @@
     },
     "scripts": {
         "monaca:preview": "npm run dev",
-        "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081"
+        "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081",
+        "start": "npx http-server www"
     },
     "cordova": {
         "plugins": {
